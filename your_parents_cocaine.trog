@@ -1,0 +1,53 @@
+title: Your Parents' Cocaine
+----
+
+phrase up_riff {
+  C; C; E; F3; G; G;
+}
+
+phrase down_riff {
+  G; G; F; E3; C; C;
+}
+
+phrase slow_down_riff {
+  _
+  G 2
+  F
+  E
+  C 3
+}
+
+phrase up_verse {
+  C; C; C; C;
+  C; C; C; C;
+  F; F; F; F;
+  F; F; F; F;
+  G; G; G; G;
+  G; G; G; G;
+}
+
+section chorus {
+  up_riff
+  down_riff
+  up_riff
+  slow_down_riff
+}
+
+section verse {
+  up_verse
+  slow_down_riff
+}
+
+song {
+  chorus
+  verse x 2
+  chorus x 2
+  verse x 2
+  chorus x 2
+  verse x 2
+  chorus x 2
+  slow_up
+  slow_down_riff
+  slow_up
+  outro
+}
